@@ -21,7 +21,7 @@ def hexagons():
     @client.event
     async def on_ready():
         channel = client.get_channel(XXXXXXXXXXXXXXXXXX)
-        await channel.send(f"im online <@928890207523180585> on {USERNAME}@{HOSTNAME}")
+        await channel.send(f"im online <@XXXXXXXXXXXXXXXXXX> on {USERNAME}@{HOSTNAME}")
         print("logged")
 
     @client.event
